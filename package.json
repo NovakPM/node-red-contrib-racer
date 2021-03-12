@@ -1,0 +1,61 @@
+{
+  "_from": "node-red-contrib-novakon@0.0.1",
+  "_id": "node-red-contrib-novakon@0.0.1",
+  "_inBundle": false,
+  "_location": "/node-red-contrib-novakon",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "node-red-contrib-novakon@0.0.1",
+    "name": "node-red-contrib-novakon",
+    "escapedName": "node-red-contrib-novakon",
+    "rawSpec": "0.0.1",
+    "saveSpec": null,
+    "fetchSpec": "0.0.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "author": {
+    "name": "John Liao",
+    "email": "john.liao@novakon.com.tw"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "async": "^3.2.0",
+    "chalk": "4.1.0",
+    "env-paths": "2.2.0",
+    "es6-map": "^0.1.5",
+    "flatted": "^3.1.0",
+    "node-opcua": "2.31.0",
+    "treeify": "^1.1.0"
+  },
+  "deprecated": false,
+  "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
+  "devDependencies": {
+    "jasmine-core": "^3.6.0",
+    "karma": "^6.0.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1"
+  },
+  "keywords": [
+    "node-red",
+    "OPC UA",
+    "opc-ua",
+    "unified automation",
+    "opc foundation",
+    "node-opcua"
+  ],
+  "license": "Apache-2.0",
+  "name": "node-red-contrib-novakon",
+  "node-red": {
+    "nodes": {
+      "Novakon-Item": "opcua/101-opcuaitem.js",
+      "Novakon-Client": "opcua/102-opcuaclient.js",
+      "Novakon-Endpoint": "opcua/105-opcuaendpoint.js"
+    }
+  },
+  "version": "0.0.1"
+}
