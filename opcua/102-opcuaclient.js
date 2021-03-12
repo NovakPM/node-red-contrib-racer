@@ -1366,6 +1366,7 @@ module.exports = function (RED) {
                 // console.log( reference);
         }
         msg.payload = all;
+	msg.topic = "Browse:";
         node.send(msg);
         set_node_status_to("browse done");
       } else {
